@@ -1,0 +1,81 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 2rem;
+  background-color: darkgreen;
+  border-radius: 13px;
+  box-shadow: 0 8px 24px  rgba(0, 0, 0, 0.1);
+color: black;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-group{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #1a1a1a;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: darkred;
+}
+
+button{
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-add{
+  background-color: darkred;
+  color: black;
+  border: none;
+}
+
+.task-list{
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  color: black;
+}
+
+.btn-delete{
+  background-color: darkred;
+  color: black;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+button:hover{
+  opacity: 0.8;
+}
